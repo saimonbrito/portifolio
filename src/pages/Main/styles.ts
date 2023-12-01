@@ -3,12 +3,18 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
- background-color: #13293D;
+ background-color: ${props => props.theme["gray-900"]};
  display: flex;
  align-items: center;
  justify-content: space-around;
- height: 30rem;
- border-radius: 10px;
+ height: 20rem;
+ color: ${props => props.theme["gray-500"]};
+ font-size: 18px;
+ font-weight: bold;
+ margin-bottom: 10px;
+ 
 
-
+`;
+export const Ivimg = styled.div`
+  background-color: ${props => props.theme["gray-800"]};
 `;

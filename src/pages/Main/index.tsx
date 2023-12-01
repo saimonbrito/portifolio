@@ -1,9 +1,16 @@
-import React from 'react';
-import { Container } from './styles';
+
+import { Container,Ivimg} from './styles';
 import Image from 'next/image'
+import { colors } from '@/theme/colors';
+import { ThemeProvider } from 'styled-components';
+
+
+
+
 
 export function Main() {
   return (
+    <ThemeProvider theme={colors}>
     <Container>
        <div>
        
@@ -16,16 +23,16 @@ export function Main() {
                 <br/>efront-end html css, javascript, reactjs, tailwindcss alguns framework e bibliotecas  como no
                 <br/> back-end  nodejs, axprees, fastify, mysql, mongodb, algumas algumas bibliotecar e frame framework</p>
        </div>
-       <div> 
-            <Image
+       <Ivimg> 
+            <Image 
               src="/so.png"
-              width={400}
-              height={400}
+              width={200}
+              height={200}
               alt="Picture of the author"
           />
-        <img src="./fotos" alt="" />
-            
-       </div>
+       </Ivimg>
+      
     </Container>
+    </ThemeProvider>
   );
 }

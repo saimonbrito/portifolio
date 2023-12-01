@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
- background-color: black;
+ background-color: ;
  height: 70px;
  display: flex;
  justify-content: space-between;
  padding: 30px;
-margin-bottom: 5px;
+
  
 
 `;
@@ -25,6 +25,7 @@ export const LogoLinksUl = styled.ul`
  display: flex;
  gap: 64px;
  list-style-type: none;
+ color: ${props => props.theme["gray-600"]};
  
  
  
