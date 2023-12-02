@@ -3,9 +3,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.body`
-  background-color: ${props => props.theme["gray-900"]} ;
+
   width: 100%;
-  max-width: 1020px;
+  max-width: 1000px;
   margin: auto;
 `;
 

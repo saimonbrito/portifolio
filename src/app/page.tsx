@@ -7,7 +7,9 @@ import { colors } from "../theme/colors";
 import { Portifolios } from '@/Portifolios';
 
 
+
 import { ThemeProvider } from "styled-components";
+
 
 
 
@@ -26,10 +28,10 @@ export default function Home() {
        <Portifolios/>
        <Portifolios/>
        <Portifolios/>
-       <Portifolios/>
 
             
        </Port>
+      
       
     </Container>
     </ThemeProvider>
